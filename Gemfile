@@ -4,6 +4,10 @@ source "https://rubygems.org"
 gem 'sinatra'
 gem 'thin'
 gem 'require_all'
+gem 'sinatra'
+gem 'activerecord', '4.2.5'
+gem 'sinatra-activerecord'
+gem 'rake'
 
 
 group :development do
